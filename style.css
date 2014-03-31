@@ -1,0 +1,19 @@
+.rating {text-align: center; display: block; line-height: 1em; color:#ECAC00; font-size: 19px; }
+
+/* this example uses font awesome for the stars symbol */
+.rating .fa-rating.s-5:before {content:"\f005\f005\f005\f005\f005";}
+.rating .fa-rating.s-4-5:before {content:"\f005\f005\f005\f005\f123";}
+.rating .fa-rating.s-4:before {content:"\f005\f005\f005\f005\f006";}
+.rating .fa-rating.s-3-5:before {content:"\f005\f005\f005\f123\f006";}
+.rating .fa-rating.s-3:before {content:"\f005\f005\f005\f006\f006";}
+.rating .fa-rating.s-2-5:before {content:"\f005\f005\f123\f006\f006";}
+.rating .fa-rating.s-2:before {content:"\f005\f005\f006\f006\f006";}
+.rating .fa-rating.s-1-5:before {content:"\f005\f123\f006\f006\f006";}
+.rating .fa-rating.s-1:before {content:"\f005\f006\f006\f006\f006";}
+.rating .fa-rating.s-0-5:before {content:"\f123\f006\f006\f006\f006";}
+.rating .fa-rating.s-0:before {content:"\f006\f006\f006\f006\f006";}
+
+
+.fa-rating.rate {position: relative;}
+.fa-rating.rate ul {display: block;position: absolute; left: 0; top: 0; width: 100%; height: 100%; margin: 0; padding: 0; list-style: none;}
+.fa-rating.rate ul li {display: block; float: left; width: 10%;height: 100%;}
